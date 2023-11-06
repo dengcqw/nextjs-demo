@@ -18,8 +18,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: green;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 * {
@@ -28,5 +32,5 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
+  display: block;
 }
